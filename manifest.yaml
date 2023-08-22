@@ -1,12 +1,13 @@
 display_information:
-  name: Getting Started Bolt App
+  name: Autobot
+  long_description: Autogram's internal slack app and helper bot
 features:
   app_home:
-    home_tab_enabled: false
+    home_tab_enabled: true
     messages_tab_enabled: true
-    messages_tab_read_only_enabled: false
+    messages_tab_read_only_enabled: true
   bot_user:
-    display_name: BoltApp
+    display_name: Autobot
     always_online: true
 oauth_config:
   scopes:
