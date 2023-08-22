@@ -7,6 +7,7 @@ see: https://slack.dev/bolt-js/tutorial/getting-started
 */
 
 // Initializes your app with your bot token and app token
+// Pretty sure we set up the tokens correctly. Fingers crossed.
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   socketMode: true,
